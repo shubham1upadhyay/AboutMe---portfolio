@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shubham Upadhyay @Software Developer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://c.pxhere.com/photos/86/e1/laptop_mac_apple_light_black-59364.jpg!d");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.f-img:hover{
+	cursor: pointer;
+	border: 5px orange solid;
+	border-radius:20%;
+	margin-top: -600px;
+}
+
+.a-hover:hover{
+   border-bottom-right-radius: 50px;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+ 
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide w3-hover-text-red ">SHUBHAM  UPADHYAY</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button w3-hover-text-red"><i class="fa fa-user a-hover"></i>ABOUT</a>
+      <a href="#certification" class="w3-bar-item w3-button w3-hover-text-orange"><i class="fa fa-book"></i> CERTIFICATION</a>
+      <a href="#work" class="w3-bar-item w3-button w3-hover-text-red"><i class="fa fa-th"></i> WORK</a>
+      <a href="#skills" class="w3-bar-item w3-button w3-hover-text-violet"><i class="fa fa-star"></i> SKILLS</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hover-text-green"><i class="fa fa-phone"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#certification" onclick="w3_close()" class="w3-bar-item w3-button">CERTIFICATION</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button">SKILLS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">WELCOME HERE</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">WELCOME HERE</span><br>
+    <span class="w3-large">Stop wasting valuable time to think on projects ideas.</span>
+    <p><a href="#contact" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Connect now and start today</a></p>
+  </div> 
+  
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <a href="https://www.facebook.com/shubham.upadhyay.5283166/">
+   <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  </a>
+    <a href="https://www.instagram.com/trayamb_keshwar/">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    </a>
+    
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    
+    <a href="https://www.linkedin.com/in/shubham-upadhyay-/">
+     <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
+    
+  </div>
+</header>
+
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h1 class="w3-center">Hi, I'm Shubham Upadhyay</h1>
+  <p class="w3-center w3-large">Software Developer, Full Stack (Java)</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Qualities</p>
+      <p>
+      Expert at building software from the ground up. 
+      Can build computer programs, mobile applications, and desktop applications. 
+      Responsible for game development and digital architecture && can work for organizations 
+      and can work as a freelancer too.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>
+       I'm always curious and have unending enthusiasm for solving problems. 
+       I understand there is no better way to learn than working on challenges.
+       Passion for working on the latest technology, building valuable software, increasing 
+       the company’s revenue.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>
+      I will design or re-design, fix and create a responsive/attractive websites, you will get : 
+      Optimized for fast loading on every device, Fuly responsive on every device &&
+      Custom and unique website design according to Modren Trends && you will get 
+      unlimited revisions.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>
+      Providing technical support on every aspect of our products/services.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Work Section - "Want to see works ?" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Want to see works ?.</h3>
+      <p>
+        Just Enter below to get the stuffs.
+     </p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View My Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb" alt="my-works" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+
+<!-- Certification Section -->
+<div class="w3-container" style="padding:128px 16px" id="certification">
+  <h3 class="w3-center">CERTIFICATION</h3>
+  <p class="w3-center w3-large">I got these gems..</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img onclick="onClick(this)" class="w3-hover-opacity" src="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/1948442/original/Shubham_Upadhyay20221213-63-19jwkew.jpg" alt="Front-end Development" style="width:100%; cursor: pointer;">
+        <div class="w3-container">
+          <h3>Front End Development</h3>
+          <p class="w3-opacity">Great Learning Academy</p>
+          <p>     -------------     </p>
+          <h3 style="text-align: center;" class="w3-red w3-large w3-padding-20">Click on Certificate to See</h3>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img onclick="onClick(this)" class="w3-hover-opacity" src="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/1946633/original/Shubham_Upadhyay20221213-64-oxkq68.jpg" alt="Java-Intermediate" style="width:100%; cursor: pointer;">
+        <div class="w3-container">
+          <h3>Java - Intermediate Level</h3>
+          <p class="w3-opacity">Great Learning Academy</p>
+          <p>     -------------     </p>
+         <h3 style="text-align: center;" class="w3-red w3-large w3-padding-20">Click on Certificate to See</h3>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img onclick="onClick(this)" class="w3-hover-opacity" src="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/1428813/original/Shubham_Upadhyay20220805-22120-192tgwa.jpg" alt="OOPs- Java" style="width:100%; cursor: pointer;">
+        <div class="w3-container">
+          <h3>OOPs - Java</h3>
+          <p class="w3-opacity">Great Learning Academy</p>
+          <p>     -------------     </p>
+         <h3 style="text-align: center;" class="w3-red w3-large w3-padding-20">Click on Certificate to See</h3>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img onclick="onClick(this)" class="w3-hover-opacity" src="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/1430153/original/Shubham_Upadhyay20220805-22120-118c92k.jpg" alt="Sql" style="width:100%; cursor: pointer;">
+        <div class="w3-container">
+          <h3>SQL</h3>
+          <p class="w3-opacity">Great Learning Academy</p>
+          <p>     -------------     </p>  
+          <h3 style="text-align: center;" class="w3-red w3-large w3-padding-20">Click on Certificate to See</h3>      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter w3-hover-text-green"style="cursor: pointer;">
+    <span class="w3-xxlarge w3-hover-text-blue"style="cursor: pointer;">4+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter w3-hover-text-pink"style="cursor: pointer;">
+    <span class="w3-xxlarge w3-hover-text-red"style="cursor: pointer;">8+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter w3-hover-text-orange"style="cursor: pointer;">
+    <span class="w3-xxlarge w3-hover-text-yellow"style="cursor: pointer;">20+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter w3-hover-text-red" style="cursor: pointer;">
+    <span class="w3-xxlarge w3-hover-text-pink" style="cursor: pointer;">90+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">My WORK</h3>
+  <p class="w3-center w3-large">What I've done !</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_mic.jpg" style="width:100%; cursor: pointer;" onclick="m2()" class="w3-hover-opacity" alt="project 1">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_phone.jpg" style="width:100%; cursor: pointer;" onclick="m2()" class="w3-hover-opacity" alt="project 2">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_drone.jpg" style="width:100%; cursor: pointer;" onclick="m2()" class="w3-hover-opacity" alt="project 3">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_sound.jpg" style="width:100%; cursor: pointer;" onclick="m2()" class="w3-hover-opacity" alt="project 4">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tablet.jpg" style="width:100%; cursor: pointer;" onclick="m2()" class="w3-hover-opacity" alt="project 5">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_camera.jpg" style="width:100%; cursor: pointer;" onclick="m2()" class="w3-hover-opacity" alt="project 6">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_typewriter.jpg" style="width:100%; cursor: pointer;" onclick="m2()" class="w3-hover-opacity" alt="project 7">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tableturner.jpg" style="width:100%; cursor: pointer;" onclick="m2()" class="w3-hover-opacity" alt="project 8">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <p>
+      <b>
+      Have mathematics aptitude && problem-solving abilities and programming Languages for 
+      programming include: Java, HTML, SQL,PHP and outstanding organizational and time-management 
+      abilities and always precision and attention to detail.
+       Coding abilities - in any language JAVA and other programming languages for 
+       front-end development include Javascript, HTML, and CSS.
+   <br> Having good communication ability, &&  self-improvement abilities 
+   <span style="color:red;"><u>Hunger for new skills</u></span>
+      
+      </b>
+      </p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-star w3-margin-right"></i>Java</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Spring-Boot</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>React</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">30%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="skills">
+  <h3>Technical Skills</h3>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Tools Proficiency</li>
+        <li class="w3-padding-16"><b>Eclipse</b></li>
+        <li class="w3-padding-16"><b>Intellij-Idea</b></li>
+        <li class="w3-padding-16"><b>VS code</b></li>
+        <li class="w3-padding-16"><b>Android Studio</b></li>
+        <li class="w3-padding-16"><b>Git</b></li>
+        
+        
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Programming Languages/Framework</li>
+        <li class="w3-padding-16"><b>Java</b></li>
+        <li class="w3-padding-16"><b>OOPs</b></li>
+        <li class="w3-padding-16"><b>Swing/Awt</b></li>
+        <li class="w3-padding-16"><b>Spring-Boot</b></li>
+        <li class="w3-padding-16"><b>Rest-Services</b></li>
+        <li class="w3-padding-16"><b>MySql</b></li>
+        <li class="w3-padding-16"><b>Html5</b></li>
+        <li class="w3-padding-16"><b>Css3</b></li>
+        <li class="w3-padding-16"><b>Bootstrap</b></li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Operating System</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Windows</h2>
+        </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Mac</h2>
+        </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Android</h2>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Lucknow, UttarPradesh</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 8737878701</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: shubhamup47@gmail.com</p>
+    <br>
+    <form id="form">
+      <p><input style="color:blue;" class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input style="color:blue;" class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input style="color:blue;" class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input style="color:blue;" class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button onclick="msgBtn()" id="messageBtn" class="w3-button w3-black">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE</button>
+      </p>
+    </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div style="display:flex;">
+ <img class="f-img" style="margin-top: 30px;" width="20%" height="200px" alt="facebook" onclick="fb()" src="https://i.pinimg.com/736x/26/a2/85/26a2857a33ac96048936429b907be8ba.jpg">
+  <img class="f-img" style="margin-top: 30px;" width="20%" height="200px" alt="instagram" onclick="insta()" src="https://i.pinimg.com/originals/26/e2/75/26e2752d20d8d06f8d2007bc53231a33.jpg">
+  <img class="f-img" style="margin-top: 30px;" width="20%" height="200px" alt="snapchat" src="https://cdn.vectorstock.com/i/preview-1x/14/20/snapchat-social-media-icon-symbol-design-element-vector-42861420.jpg">
+  <img class="f-img" style="margin-top: 30px;" width="20%" height="200px" alt="linkedin" onclick="linkedin()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUr05rEVtkPd9UyGw3J0WKo88D0E1N_KLsyw&usqp=CAU">
+  <img class="f-img" style="margin-top: 30px;" width="20%" height="200px" alt="whatsapp" onclick="whatsapp()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJf3023dxcZ1F3eb79LGcWlxIepJoQ-1cV4HbcOClm56cO3jrxzePJl4YSwZV4SI-8Pkk&usqp=CAU">
+    
+  </div>
+  <p>Powered by <a href="#" title="Shubham-Upadhyay" target="_top" class="w3-hover-text-green">Shubham Upadhyay</a></p>
+</div>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+function m2()
+{
+alert('Will be updated Soon !')
+}
+
+function fb()
+{
+  window.open("https://www.facebook.com/shubham.upadhyay.5283166/")
+}
+
+function insta()
+{
+  window.open("https://www.instagram.com/trayamb_keshwar/")
+}
+
+function linkedin()
+{
+  window.open("https://www.linkedin.com/in/shubham-upadhyay-/")
+}
+
+function msgBtn() {
+	 // const myWindow = window.open("", "", "width=80%,height=90%");
+	  myWindow.opener.document.getElementById("form").innerHTML = "font-size:60px; color:red;", "Thank you for contacting !";
+	}
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
